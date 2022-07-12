@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 601px) {
+
+    body {
+        padding-top: 0;
+    }
+
+    section {
+        width: 100%;
+        padding-top: 40px;
+        border: none;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0 40px 16px 40px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    
+    section {
+        padding: 22px 25px 0px 25px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0 20px 20px 20px;
+    }
+}

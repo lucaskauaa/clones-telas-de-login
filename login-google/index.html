@@ -1,0 +1,45 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer login nas Contas do Google</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/phone-style.css">
+</head>
+<body>
+    <section>
+        <div id="login">
+            <img src="imagens/g-logo.png" alt="Logo do Google">
+            <h1>Fazer login</h1>
+            <h2>Use sua Conta do Google</h2>
+        </div>
+       <form>
+            <input type="email" name="email" id="email" placeholder="E-mail ou telefone">
+       </form>
+       <div id="digite"></div>
+       <div id="esqueceu-email">
+           <a href="https://accounts.google.com/signin/v2/usernamerecovery?hl=pt-BR&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Dpt-BR&ec=GAlA8wE&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank" rel="external">Esqueceu seu e-mail?</a>
+       </div>
+       <div id="saiba-mais">
+        <p>
+            Não está no seu computador? Use o modo visitante para fazer login com privacidade. <a href="https://support.google.com/chrome/answer/6130773?hl=pt" target="_blank" rel="external">Saiba mais</a>
+        </p>
+       </div>
+       <div id="proxima">
+        <button type="button" id="b1">Criar conta</button>
+        <button type="button" id="b2" onclick="verificar()">Próxima</button>
+       </div>
+    </section>
+    <footer>
+        <div>Português Brasil &#9662;</div>
+        <div>
+            <a href="https://support.google.com/accounts?hl=pt" target="_blank" rel="external">Ajuda</a>
+            <a href="https://accounts.google.com/TOS?loc=BR&hl=pt&privacy=true" target="_blank" rel="external">Privacidade</a>
+            <a href="https://accounts.google.com/TOS?loc=BR&hl=pt" target="_blank" rel="external">Termos</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
