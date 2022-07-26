@@ -4,5 +4,9 @@ senha.addEventListener('input', login);
 const button = document.getElementById('button');
 
 function login() {
-    button.style.backgroundColor = '#0095F6';
+    if (senha.value.length != 0) {
+        button.style.backgroundColor = '#0095F6';
+    } else {
+        button.style.backgroundColor = '#B2DFFC';
+    }
 }
